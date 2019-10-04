@@ -3,7 +3,7 @@
   "description": "An integration of TestCafe and Cucumber",
   "author": "Yasin Mhmd",
   "scripts": {
-    "test": "./node_modules/.bin/cucumber-js",
+    "test": "./node_modules/.bin/cucumber-js features/login-suite.feature",
     "test-report": "./node_modules/.bin/cucumber-js.cmd --format json:./reports/report.json",
     "test-chrome": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
     "test-ie": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",

@@ -1,6 +1,15 @@
 {
   "googleHomePage": {
     "searchTextFieldXpath": "//input[@name = 'q']"
+  },
+  "githubPage": {
+    "searchBarXpath" : "//input[@name = 'q']"
+  },
+  "githubLoginPage": {
+    "usernameFieldXpath" : "//input[@id = 'login_field']",
+    "passwordFieldXpath" : "//input[@id = 'password']",
+    "signinButtonXpath": "//input[@value = 'Sign in']",
+    "errorMessageXpath": "//div[@class = 'flash flash-full flash-error']"
   }
 }
 
